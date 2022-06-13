@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.MainActivity2">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/acitvity_baru"
+        android:background="@color/purple_700"
+        android:textSize="15pt"
+        android:gravity="center"
+        android:textColor="@color/white"/>
+
+    <TextView
+        android:id="@+id/menerima_hasil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hasil_activity_1"
+        android:textSize="15pt"/>
+
+    <TextView
+        android:id="@+id/menerima_parcelable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="13pt"
+        android:text="Parclable"/>
+
+</LinearLayout>

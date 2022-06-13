@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Aplikasi Kalkulator Sederhana</string>
+    <string name="kalkulator_sederhana">Kalkulator Sederhana</string>
+    <string name="bilangan_pertama">Bilangan pertama</string>
+    <string name="bilangan_kedua">Bilangan kedua</string>
+    <string name="tambah">+</string>
+    <string name="kurang">-</string>
+    <string name="kali">*</string>
+    <string name="bagi">/</string>
+    <string name="hasil_kalkulator_sederhana">hasil_kalkulator_sederhana</string>
+    <string name="akar">√</string>
+    <string name="lihat_hasil">Lihat Hasil</string>
+</resources>

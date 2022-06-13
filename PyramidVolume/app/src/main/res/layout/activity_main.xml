@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="30dp"
+        android:src="@drawable/pyramid"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="10pt"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:background="@color/black"
+        android:layout_marginBottom="10dp"
+        android:text="@string/pyramid_volumn"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="5dp">
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="@string/panjang"
+            android:textStyle="bold"
+            android:textSize="10pt"
+            android:background="@color/purple_200"/>
+
+        <EditText
+            android:id="@+id/edit_panjang"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:textSize="10pt"
+            android:background="@color/Orange"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="5dp">
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="@string/lebar"
+            android:textStyle="bold"
+            android:textSize="10pt"
+            android:background="@color/purple_200"/>
+
+        <EditText
+            android:id="@+id/edit_lebar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:textSize="10pt"
+            android:background="@color/Orange"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="5dp">
+
+        <TextView
+            android:id="@+id/edit_tinggi"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="@string/tinggi"
+            android:textStyle="bold"
+            android:textSize="10pt"
+            android:background="@color/purple_200"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:textSize="10pt"
+            android:background="@color/Orange"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button_calculate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="10pt"
+        android:text="@string/calculate"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/backgroundbutton"/>
+
+    <TextView
+        android:id="@+id/Text_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="10pt"
+        android:text="@string/result"
+        android:background="@color/white"/>
+
+    <Button
+        android:id="@+id/button_pindah_activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="10pt"
+        android:text="@string/pindah_activity"/>
+
+    <Button
+        android:id="@+id/button_parceable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/parceable"
+        android:textSize="10pt"/>
+
+    <Button
+        android:id="@+id/button_telephone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="10pt"
+        android:text="@string/telfon_sense"/>
+</LinearLayout>

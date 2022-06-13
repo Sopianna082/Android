@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Pyramid Volume</string>
+    <string name="pyramid_volumn">Pyramid Volumn</string>
+    <string name="panjang">Panjang</string>
+    <string name="lebar">Lebar</string>
+    <string name="tinggi">Tinggi</string>
+    <string name="calculate">Calculate</string>
+    <string name="result">result</string>
+    <string name="pindah_activity">pindah_activity</string>
+    <string name="acitvity_baru">Acitvity Baru</string>
+    <string name="hasil_activity_1">hasil_activity_1</string>
+    <string name="parceable">Parceable</string>
+    <string name="telfon_sense">Telfon sense</string>
+</resources>
