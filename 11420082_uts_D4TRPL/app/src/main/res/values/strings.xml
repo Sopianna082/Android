@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">11420082_uts_D4TRPL</string>
+    <string name="fun_math">FUN MATH</string>
+    <string name="panjang">panjang</string>
+    <string name="lebar">lebar</string>
+    <string name="tinggi">tinggi</string>
+    <string name="hitung">Hitung</string>
+    <string name="hasil">hasil</string>
+    <string name="luas_permukaan_balok">Luas Permukaan Balok</string>
+    <string name="volume_balok">Volume Balok</string>
+    <string name="luas_permukaan_bola">Luas Permukaan Bola</string>
+    <string name="jari_jari">Jari-jari</string>
+    <string name="volume_bola">Volume bola</string>
+    <string name="garis_pelukis">Garis Pelukis</string>
+    <string name="volume_kerucut">Volume Kerucut</string>
+    <string name="luas_permukaan_tabung">Luas Permukaan Tabung</string>
+    <string name="volume_tabung">Volume Tabung</string>
+    <string name="operasi_bangun_ruang">Operasi Bangun Ruang</string>
+    <string name="luas_permukaan_kerucut">Luas Permukaan Kerucut</string>
+</resources>

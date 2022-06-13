@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/background_dasar"
+    android:orientation="vertical"
+    tools:context=".MainActivity10">
+
+    <ImageView
+        android:id="@+id/item_gambar1"
+        android:layout_width="100pt"
+        android:layout_height="90pt"
+        android:layout_gravity="center"
+        android:layout_marginTop="70dp"
+        android:layout_marginBottom="5pt"
+        android:background="@drawable/tabung"/>
+
+    <TextView
+        android:id="@+id/item_judul1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="10pt"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:background="@color/purple_700"
+        android:layout_marginBottom="10dp"
+        android:text="@string/volume_tabung"/>
+
+    <LinearLayout
+        android:id="@+id/layout_button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="5dp">
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="@string/jari_jari"
+            android:textStyle="bold"
+            android:textSize="10pt"
+            android:background="@color/purple_200"/>
+
+        <EditText
+            android:id="@+id/edit_jari"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:textSize="10pt"
+            android:background="@color/Orange"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="5dp">
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="@string/tinggi"
+            android:textStyle="bold"
+            android:textSize="10pt"
+            android:background="@color/purple_200"/>
+
+        <EditText
+            android:id="@+id/garis_pelukis"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:textSize="10pt"
+            android:background="@color/Orange"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button_calculate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="10pt"
+        android:text="@string/hitung"
+        android:layout_marginBottom="5dp"
+        />
+
+    <TextView
+        android:id="@+id/Text_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="10pt"
+        android:text="@string/hasil"
+        android:background="@color/white"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="95pt"
+        android:layout_gravity="bottom">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_weight="0"
+            android:layout_marginLeft="60pt"
+            android:src="@drawable/ikon_telephone"/>
+
+        <Button
+            android:id="@+id/telefon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="8pt"
+            android:padding="1px"
+            android:text="TELEPHONE SENSEI"
+            android:background="@color/Orange"/>
+
+    </LinearLayout>
+
+</LinearLayout>

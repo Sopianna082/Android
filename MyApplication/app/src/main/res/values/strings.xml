@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="pyramid_volumn">Pyramid_Volumn</string>
+    <string name="panjang">panjang</string>
+    <string name="lebar">lebar</string>
+    <string name="tinggi">tinggi</string>
+    <string name="calculate">calculate</string>
+    <string name="result">result</string>
+</resources>

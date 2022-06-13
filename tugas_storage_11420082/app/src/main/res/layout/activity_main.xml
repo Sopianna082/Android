@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/layoutAtas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="0dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/icon" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Form Data Diri"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutnim"
+        android:layout_below="@id/layoutAtas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:onClick="Nim"
+            android:id="@+id/btn_nim"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:text="NIM"/>
+
+        <EditText
+            android:id="@+id/edit_nim"
+            android:layout_width="290dp"
+            android:layout_height="wrap_content"
+            android:hint="Klik button nim"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutNama"
+        android:layout_below="@id/layoutnim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:onClick="Nama"
+            android:id="@+id/btn_nama"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:text="Nama"/>
+
+        <EditText
+            android:id="@+id/edit_nama"
+            android:layout_width="290dp"
+            android:layout_height="wrap_content"
+            android:hint="Klik button nama"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutProdi"
+        android:layout_below="@id/layoutNama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:onClick="ListProdi"
+            android:id="@+id/btn_prodi"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:text="Prodi"/>
+
+        <EditText
+            android:id="@+id/edit_prodi"
+            android:layout_marginTop="5dp"
+            android:layout_width="290dp"
+            android:layout_height="wrap_content"
+            android:hint="Klik button prodi"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutTTL"
+        android:layout_below="@id/layoutProdi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:onClick="TTL"
+            android:id="@+id/btn_ttl"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:text="TTL"/>
+
+        <EditText
+            android:id="@+id/edit_ttl"
+            android:layout_width="290dp"
+            android:layout_height="wrap_content"
+            android:hint="Klik button TTL"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutGolonganDarah"
+        android:layout_below="@id/layoutTTL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:onClick="ListGoldar"
+            android:id="@+id/btn_goldar"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:text="GolDar"/>
+
+        <EditText
+            android:id="@+id/edit_goldar"
+            android:layout_marginTop="5dp"
+            android:layout_width="290dp"
+            android:layout_height="wrap_content"
+            android:hint="Klik button Goldar"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_below="@+id/layoutGolonganDarah"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="22dp"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="487dp"
+        android:text="Nama File"
+
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" />
+
+    <EditText
+        android:id="@+id/editFile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView"
+        android:layout_alignStart="@+id/btnSave"
+        android:layout_alignLeft="@+id/btnSave"
+        android:layout_alignBottom="@+id/textView"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="65dp"
+        android:layout_marginLeft="65dp"
+        android:layout_marginEnd="87dp"
+        android:layout_marginBottom="-8dp"
+        android:ems="10"
+        android:hint="File yang disimpan"
+        android:inputType="textPersonName"
+        android:paddingLeft="10dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_alignEnd="@+id/textView"
+        android:layout_alignRight="@+id/textView"
+        android:layout_marginTop="58dp"
+        android:layout_marginEnd="9dp"
+
+        android:layout_marginRight="9dp"
+        android:text="Isi Data"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" />
+
+    <EditText
+        android:id="@+id/editData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editFile"
+        android:layout_alignBaseline="@+id/textView2"
+        android:layout_alignStart="@+id/editFile"
+        android:layout_alignLeft="@+id/editFile"
+        android:layout_alignBottom="@+id/textView2"
+        android:layout_marginStart="3dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="-36dp"
+        android:ems="10"
+        android:hint="Data yang disimpan"
+        android:lines="3" />
+
+    <Button
+        android:id="@+id/btnView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/btnSave"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="-1dp"
+        android:layout_marginEnd="59dp"
+        android:layout_marginRight="33dp"
+        android:text="View" />
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="49dp"
+        android:layout_marginLeft="49dp"
+        android:layout_marginBottom="19dp"
+        android:text="Save" />
+
+</RelativeLayout>

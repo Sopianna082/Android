@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:padding="8dp">
+
+        <ImageView
+            android:id="@+id/item_gambar"
+            android:layout_width="150dp"
+            android:layout_height="200dp"
+            android:layout_marginBottom="5dp"
+            tools:src="@tools:sample/avatars"/>
+
+        <TextView
+            android:id="@+id/item_judul"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="5dp"
+            android:layout_toRightOf="@+id/item_gambar"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:text="Judul"/>
+
+        <TextView
+            android:id="@+id/item_penjelasan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/layout_button"
+            android:layout_below="@+id/item_judul"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_toRightOf="@+id/item_gambar"
+            android:maxLines="5"
+            android:text="Penjelasan"/>
+
+        <LinearLayout
+            android:id="@+id/layout_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_toRightOf="@+id/item_gambar"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_luas"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Luas Permukaan"
+                android:textSize="12sp"/>
+
+            <Button
+                android:id="@+id/btn_volume"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Volume Bangun"
+                android:textSize="12sp"/>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

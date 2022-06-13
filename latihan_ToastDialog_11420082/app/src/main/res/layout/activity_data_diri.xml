@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DataDiriActivity">
+
+    <LinearLayout
+        android:id="@+id/layoutAtas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/icon"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="50dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Form Data Diri"
+            android:textSize="25sp"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutnim"
+        android:layout_below="@id/layoutAtas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:onClick="Nim"
+            android:id="@+id/btn_nim"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:text="NIM"/>
+
+        <EditText
+            android:id="@+id/edit_nim"
+            android:layout_width="290dp"
+            android:layout_height="wrap_content"
+            android:hint="Klik button nim"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutNama"
+        android:layout_below="@id/layoutnim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:onClick="Nama"
+            android:id="@+id/btn_nama"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:text="Nama"/>
+
+        <EditText
+            android:id="@+id/edit_nama"
+            android:layout_width="290dp"
+            android:layout_height="wrap_content"
+            android:hint="Klik button nama"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutProdi"
+        android:layout_below="@id/layoutNama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:onClick="ListProdi"
+            android:id="@+id/btn_prodi"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:text="Prodi"/>
+
+        <EditText
+            android:id="@+id/edit_prodi"
+            android:layout_marginTop="5dp"
+            android:layout_width="290dp"
+            android:layout_height="wrap_content"
+            android:hint="Klik button prodi"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutTTL"
+        android:layout_below="@id/layoutProdi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:onClick="TTL"
+            android:id="@+id/btn_ttl"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:text="TTL"/>
+
+        <EditText
+            android:id="@+id/edit_ttl"
+            android:layout_width="290dp"
+            android:layout_height="wrap_content"
+            android:hint="Klik button TTL"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutGolonganDarah"
+        android:layout_below="@id/layoutTTL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:onClick="ListGoldar"
+            android:id="@+id/btn_goldar"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:text="GolDar"/>
+
+        <EditText
+            android:id="@+id/edit_goldar"
+            android:layout_marginTop="5dp"
+            android:layout_width="290dp"
+            android:layout_height="wrap_content"
+            android:hint="Klik button Goldar"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
